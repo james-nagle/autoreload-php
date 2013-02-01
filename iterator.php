@@ -3,19 +3,19 @@
 * Example setup:
 *
 * $extensions = array(
-* 'php',
-* 'css',
-* 'js'
+* 	'php',
+* 	'css',
+* 	'js'
 * );
 *
 * $folders_to_watch = array(
-* '/',                //Root folder relative to where in your project you added iterator.php
-* 'app',              //All others relative to iterator.php
-* 'app/controllers',
-* 'app/views',
-* 'app/views/mobile', 
-* 'vendor',
-* 'vendor/js'
+* 	'/',                //Root folder relative to where in your project you added iterator.php
+* 	'app',              //All others relative to iterator.php
+* 	'app/controllers',
+* 	'app/views',
+* 	'app/views/mobile', 
+* 	'vendor',
+* 	'vendor/js'
 * );  
 */
 $extensions = array();
