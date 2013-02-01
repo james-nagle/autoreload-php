@@ -1,23 +1,23 @@
 <?php
-	/**
-	* Example setup:
-    *
-	* $extensions = array(
-	* 	'php',
-	* 	'css',
-	* 	'js'
-	* );
-	*
-	* $folders_to_watch = array(
-	* 	'/',                //Root folder relative to where in your project you added iterator.php
-	* 	'app',              //All others relative to iterator.php
-	* 	'app/controllers',
-	*   'app/views',
-	*   'app/views/mobile',	
-	*   'vendor',
-	*	'vendor/js'
-	* );	
-	*/
+/**
+* Example setup:
+*
+* $extensions = array(
+* 'php',
+* 'css',
+* 'js'
+* );
+*
+* $folders_to_watch = array(
+* '/',                //Root folder relative to where in your project you added iterator.php
+* 'app',              //All others relative to iterator.php
+* 'app/controllers',
+* 'app/views',
+* 'app/views/mobile', 
+* 'vendor',
+* 'vendor/js'
+* );  
+*/
 $extensions = array();
 $folders_to_watch = array();
 
@@ -40,7 +40,7 @@ foreach ($folders_to_watch as $folder) {
 				//Hash the filename (make it alhpanumeric)
 				$file_hash = sha1($formated);
 				//Store filename hash in key and content hash as value
-				$file_array[$file_hash] = $content_hash;			
+				$file_array[$file_hash] = $content_hash;      
 			}
 		}
 	}
